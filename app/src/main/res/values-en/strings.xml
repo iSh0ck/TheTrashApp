@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Trash App</string>
+    <string name="default_message">Hello, think of adding your garbage cans</string>
+    <string name="menuTitle">My menu</string>
+    <string name="monmenuQuit">Quit</string>
+    <string name="menuAddTrash">Adding garbage cans</string>
+    <string name="menuListGarbage">List of waste</string>
+    <string name="menuParams">Settings</string>
+    <string name="btn_add_trash">Add a trash can</string>
+    <string name="addTrash">Add a trash can</string>
+    <string name="lbl_date_passage">Day of passage:</string>
+    <string name="lbl_heure_passage">Check-in time:</string>
+    <string name="btn_validate">Validate</string>
+    <string name="btn_back">Back</string>
+    <string name="color1">Green</string>
+    <string name="color2">Blue</string>
+    <string name="err_trash_not_selected">You must select a garbage can to add</string>
+    <string name="err_trash_empty_field">Please fill in all fields</string>
+    <string name="err_trash_already_exist">The element already exists</string>
+    <string name="poubelle">Trash</string>
+    <string name="toast_poubelle_msg">The trash</string>
+    <string name="toast_added_msg">has been added.</string>
+    <string name="erase">Delete</string>
+    <string name="lbl_erase">Delete all saved trash</string>
+</resources>

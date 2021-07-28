@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTrashActivity">
+
+    <TextView
+        android:id="@+id/textview_trash_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/addTrash"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textdate_trash"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="@+id/textview_trash_title"
+        app:layout_constraintStart_toStartOf="@+id/textview_trash_labelDate"
+        app:layout_constraintTop_toBottomOf="@+id/textview_trash_labelDate"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/texttime_trash"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="@+id/textview_trash_title"
+        app:layout_constraintStart_toStartOf="@+id/textview_trash_labelDate"
+        app:layout_constraintTop_toBottomOf="@+id/textview_trash_labelTime"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textview_trash_labelDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/lbl_date_passage"
+        app:layout_constraintStart_toStartOf="@+id/textview_trash_title"
+        app:layout_constraintTop_toBottomOf="@+id/textview_trash_title" />
+
+    <TextView
+        android:id="@+id/textview_trash_labelTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/lbl_heure_passage"
+        app:layout_constraintStart_toStartOf="@+id/textview_trash_labelDate"
+        app:layout_constraintTop_toBottomOf="@+id/textdate_trash" />
+
+    <Button
+        android:id="@+id/btn_trash_validate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="75dp"
+        android:text="@string/btn_validate"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_trash_back"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_trash_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/btn_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_trash_validate"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radiogrp_trash"
+        android:layout_width="310dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/textview_trash_labelDate"
+        app:layout_constraintTop_toBottomOf="@+id/texttime_trash">
+
+        <RadioButton
+            android:id="@+id/radio_trash_vert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/color1" />
+
+        <RadioButton
+            android:id="@+id/radio_trash_bleu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/color2" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

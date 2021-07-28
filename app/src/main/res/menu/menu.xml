@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuAddTrashAlways"
+        android:title="@string/menuAddTrash"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuAddTrash"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menuAddTrash"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/menuListGarbage"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menuListGarbage"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/menuParams"
+        android:title="@string/menuParams"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/menuQuit"
+        android:title="@string/monmenuQuit"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="withText"/>
+</menu>

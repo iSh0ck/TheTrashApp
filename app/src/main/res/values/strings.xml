@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">The Trash App</string>
+    <string name="default_message">Bonjour, pensez à ajouter vos poubelles</string>
+    <string name="menuTitle">Mon menu</string>
+    <string name="monmenuQuit">Quitter</string>
+    <string name="menuAddTrash">Ajouter des poubelles</string>
+    <string name="menuListGarbage">Liste des déchets</string>
+    <string name="menuParams">Paramètres</string>
+    <string name="btn_add_trash">Ajouter une poubelle</string>
+    <string name="addTrash">Ajouter une poubelle</string>
+    <string name="lbl_date_passage">Jour de passage :</string>
+    <string name="lbl_heure_passage">Heure de passage :</string>
+    <string name="btn_validate">Valider</string>
+    <string name="btn_back">Retour</string>
+    <string name="color1">Verte</string>
+    <string name="color2">Bleue</string>
+    <string name="poubelle">Poubelle</string>
+    <string name="toast_poubelle_msg">La poubelle </string>
+    <string name="toast_added_msg"> a été ajoutée.</string>
+    <string name="erase">Effacer</string>
+    <string name="lbl_erase">Effacer les poubelles enregistrées</string>
+
+    <!-- Errors -->
+    <string name="err_trash_not_selected">Vous devez séléctionner une poubelle à ajouter</string>
+    <string name="err_trash_empty_field">Veuillez remplir tous les champs</string>
+    <string name="err_trash_already_exist">L\'élément existe déjà</string>
+</resources>
